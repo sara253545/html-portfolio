@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+
+    <table class="myTable">
+        <tr>
+            <th>No.</th>
+            <th>Functionality</th>
+            <th>Inputs</th>
+            <th>Operations</th>
+            <th>Output</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Addition</td>
+            <td rowspan="4">
+                <table>
+                    <tr>
+                        <td>Enter the first number</td>
+                        <td><input type="text" id="first_number"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Enter the second number</td>
+                        <td><input type="text" id="second_number"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <input type="button" value="ADD" onclick="find_sum()">
+            </td>
+            <td>
+                <div id="result_sum"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Subtraction</td>
+
+            <td>
+                <input type="button" value="SUBTRACT" onclick="find_difference()">
+            </td>
+            <td>
+                <div id="result_difference"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Multiplication</td>
+
+            <td>
+                <input type="button" value="MULTIPLY" onclick="find_product()">
+            </td>
+            <td>
+                <div id="result_product"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Division</td>
+
+            <td>
+                <input type="button" value="DIVIDE" onclick="find_quotient()">
+            </td>
+            <td>
+                <div id="result_quotient"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
