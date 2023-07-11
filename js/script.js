@@ -34,7 +34,7 @@ function find_quotient() {
     //console.log(output_msg);
 }
 
-
+/**
 FINAL PROJECT - Create a web application using HTML, CSS, JS & Bootstrap
 A. Create a Home page with navigation bar to navigate to other pages
 
@@ -66,3 +66,4 @@ f) YEN to USD
 
 
 PROJECT REVIEW - 8.00pm to 9.00pm -  Mon, 30 Jan 2023
+*/
